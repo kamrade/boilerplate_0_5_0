@@ -23,7 +23,7 @@ var historyApiFallback = require('connect-history-api-fallback')
 
 gulp.task('img', function(){
 	return gulp.src('./img/**/*')
-				.pipe(gulp.dest('./assets/css/imgs'))
+				.pipe(gulp.dest('./assets/css/img'))
 				.pipe(reload({stream:true}));
 });
 
