@@ -1,2 +1,5 @@
-$c_bg : #fff
-$c_txt: #333
+var colors = {
+    bg: '#fff',
+    txt: '#101012',
+    lnk: '#4A6CD5'
+};
